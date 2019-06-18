@@ -2,68 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .container {
-        position: relative;
-        text-align: center;
-        color: white;
-      }
-      .back2 {
-        top: 0px;
-        left: 0px;
-        width: 100vw;
-        height: 100vh;
-        max-width:100%;
-        object-fit: cover;
-        z-index: -1;
-        position: absolute;
-        }
-      .back1 {
-        top: 0px;
-        left: 0px;
-        width: 100vw;
-        height: 100vh;
-        max-width:100%;
-        object-fit: cover;
-        z-index: -2;
-        position: absolute;
-        }
-
-      .logo {
-        width: 77px;
-        height: 25px;
-        top: 2vw;
-        left: 3vh;
-        position: absolute;
-        }
-
-      .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50vh;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
-      <div class="container">
-        <img src="./img/clouds.jpg" class="back1">
-        <img src="./img/copenhagen.png" class="back2">
-        <img src="./img/LogoPurple.png" class="logo">
-        <div class="hero-text">
-          <h1 style="font-size:50px">YOEO</h1>
-          <h3 style="color: white">Mapping has just become easy</h3>
+
+      <div id="front0">
+        <img src="./img/clouds.jpg" id="back_clouds">
+        <img src="./img/copenhagen.png" id="back_cph">
+        <img src="./img/LogoPurple.png" id="front_logo">
+        <div id="front0_text">
+          <h3 class="text_box">Mapping has just become easy</h3>
           <input type="button" onclick="location.href='https://www.facebook.com/YOEO-313400189329897/';" value="Check us out" />
         </div>
       </div>
-    <div style="position:absolute; top:100vh;">
+
+    <div id="front1">
       <p>Page content..</p>
       <p>Note that this technique will also make the image responsive: Resize the browser window to see the effect.</p>
     </div>
