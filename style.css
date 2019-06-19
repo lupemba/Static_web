@@ -91,3 +91,20 @@ body {
     font-size: 18px;
     font-weight: 600;
   }
+
+
+  #fb_icon {
+    position: fixed;
+    z-index: 0;
+    bottom: 20px;
+    right: 65px;
+    width: 40px;
+    }
+
+  #linkedin_icon {
+      position: fixed;
+      z-index: 0;
+      bottom: 20px;
+      right: 17px;
+      width: 37px;
+      }
