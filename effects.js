@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const linkedin_icon = document.querySelector("#linkedin_icon");
   linkedin_icon.onmouseover = function() {mouseOver(linkedin_icon)};
   linkedin_icon.onmouseout = function() {mouseOut(linkedin_icon)};
-
-  alert("Dom is load");
 });
 
 function mouseOver(icon) {
