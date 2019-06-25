@@ -58,7 +58,7 @@ body {
 }
 
 #sub_title {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
@@ -95,7 +95,7 @@ body {
 
 
 #about_text {
-    background-color: rgba(230, 230, 230, 0.60);
+    background-color: rgba(240, 220, 230, 0.85);
     padding: 10px 20px;
     line-height: 200%;
     font-size: 18px;
@@ -123,6 +123,6 @@ body {
 #front1_title {
     font-size: 40px;
     margin:50px;
-    background-color: rgba(230, 230, 230, 0.60);
+    background-color: rgba(240, 220, 230, 0.85);
     padding: 10px 10px;
     }
