@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo');
 
+
 body {
   margin: 0;
   font-family: Chivo;
   color: #4a4659;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 #front0 {
@@ -18,15 +21,55 @@ body {
   text-align: center;
 }
 
-#back_clouds {
+#sky {
   top: 0px;
   left: 0px;
   width: 100vw;
   height: 100vh;
   max-width:100%;
   object-fit: cover;
-  z-index: -2;
+  z-index: -3;
   position: absolute;
+  }
+
+#clouds1 {
+    position: absolute;
+    top: -30px;
+    z-index: -2;
+    animation-duration: 80s;
+    animation-name: leftright;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+
+@keyframes leftright {
+  from {
+    left: 400px;
+  }
+
+  to {
+    left: -100px;
+  }
+}
+
+#clouds2 {
+      position: absolute;
+      top: -120px;
+      z-index: -2;
+      animation-duration: 80s;
+      animation-name: rightleft;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      }
+
+@keyframes rightleft {
+    from {
+      left: -200px;
+    }
+
+    to {
+      left: 200px;
+    }
   }
 
 #back_cph {
